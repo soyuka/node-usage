@@ -1,4 +1,6 @@
-# node-usage [![Build Status](https://travis-ci.org/arunoda/node-usage.png?branch=master)](https://travis-ci.org/arunoda/node-usage)
+# node-usage [![Build Status](https://travis-ci.org/soyuka/node-usage.png?branch=master)](https://travis-ci.org/soyuka/node-usage)
+
+Just some fork with merged PR's
 
 ### process usage lookup with nodejs
 
