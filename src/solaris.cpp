@@ -92,8 +92,8 @@ void AsyncAfterGetUsage(uv_work_t* req) {
         usageData->callback->Call(Context::GetCurrent()->Global(), argc, argv);
     } else {
         Local<Object> usage = Object::New();
-        usage->Set(String::NewSymbol("cpu"), Number::New(usageData->ps_usage.cpu));
-        usage->Set(String::NewSymbol("memory"), Number::New(usageData->ps_usage.memory));
+        usage->Set(String::New("cpu"), Number::New(usageData->ps_usage.cpu));
+        usage->Set(String::New("memory"), Number::New(usageData->ps_usage.memory));
 
         const unsigned argc = 2;
         Local<Value> argv[argc] = { Local<Value>::New(Null()), usage };
